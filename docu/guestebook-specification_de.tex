@@ -1,0 +1,27 @@
+%%%%
+% English redfoxplot_vision_scope_en
+%%%%
+%
+\documentclass[a4paper,twoside,titlepage=true]{scrartcl}
+%
+\include{docu_packages}
+\include{docu_packages_de}
+\include{docu_styles}
+\usepackage{docu_custom}
+\include{docu_names_de}
+%%
+\begin{document}
+% title page
+\input{page_titlepage}
+% pages
+\pagestyle{scrheadings}
+\pagenumbering{arabic}
+\MakeFullPage
+\begin{multicols}{2}
+\input{page_zielbestimmung_de}
+\input{page_produkteinsatz_de}
+\input{page_produktfunktionen_de}
+\input{page_grobentwurf_de}
+\input{page_qualitaetsmerkmale_de}
+\end{multicols}
+\end{document}

@@ -1,0 +1,1139 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="1525.2858"
+   height="838.09082"
+   id="svg2"
+   version="1.1"
+   inkscape:version="0.48.5 r10040"
+   sodipodi:docname="design-model.svg">
+  <defs
+     id="defs4">
+    <marker
+       inkscape:stockid="EmptyTriangleInL"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="EmptyTriangleInL"
+       style="overflow:visible">
+      <path
+         id="path4250"
+         d="m 5.77,0 -8.65,5 0,-10 8.65,5 z"
+         style="fill:#ffffff;fill-rule:evenodd;stroke:#000000;stroke-width:1pt"
+         transform="matrix(-0.8,0,0,-0.8,4.8,0)"
+         inkscape:connector-curvature="0" />
+    </marker>
+    <marker
+       inkscape:stockid="EmptyDiamondLstart"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="EmptyDiamondLstart"
+       style="overflow:visible">
+      <path
+         id="path4214"
+         d="M 0,-7.0710768 -7.0710894,0 0,7.0710589 7.0710462,0 0,-7.0710768 z"
+         style="fill:#ffffff;fill-rule:evenodd;stroke:#000000;stroke-width:1pt"
+         transform="matrix(0.8,0,0,0.8,5.6,0)"
+         inkscape:connector-curvature="0" />
+    </marker>
+    <marker
+       inkscape:stockid="DiamondLstart"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="DiamondLstart"
+       style="overflow:visible">
+      <path
+         id="path4187"
+         d="M 0,-7.0710768 -7.0710894,0 0,7.0710589 7.0710462,0 0,-7.0710768 z"
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt"
+         transform="matrix(0.8,0,0,0.8,5.6,0)"
+         inkscape:connector-curvature="0" />
+    </marker>
+    <marker
+       inkscape:stockid="Arrow1Lend"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="Arrow1Lend"
+       style="overflow:visible">
+      <path
+         id="path4102"
+         d="M 0,0 5,-5 -12.5,0 5,5 0,0 z"
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt"
+         transform="matrix(-0.8,0,0,-0.8,-10,0)"
+         inkscape:connector-curvature="0" />
+    </marker>
+    <marker
+       inkscape:stockid="EmptyTriangleOutL"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="EmptyTriangleOutL"
+       style="overflow:visible">
+      <path
+         id="path4259"
+         d="m 5.77,0 -8.65,5 0,-10 8.65,5 z"
+         style="fill:#ffffff;fill-rule:evenodd;stroke:#000000;stroke-width:1pt"
+         transform="matrix(0.8,0,0,0.8,-4.8,0)"
+         inkscape:connector-curvature="0" />
+    </marker>
+    <marker
+       inkscape:stockid="DiamondLend"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="DiamondLend"
+       style="overflow:visible">
+      <path
+         id="path4196"
+         d="M 0,-7.0710768 -7.0710894,0 0,7.0710589 7.0710462,0 0,-7.0710768 z"
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt"
+         transform="matrix(0.8,0,0,0.8,-5.6,0)"
+         inkscape:connector-curvature="0" />
+    </marker>
+  </defs>
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="0.98994949"
+     inkscape:cx="786.59346"
+     inkscape:cy="443.20109"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     inkscape:window-width="1920"
+     inkscape:window-height="1045"
+     inkscape:window-x="0"
+     inkscape:window-y="35"
+     inkscape:window-maximized="1"
+     fit-margin-top="10"
+     fit-margin-left="10"
+     fit-margin-right="10"
+     fit-margin-bottom="10"
+     showguides="true"
+     inkscape:guide-bbox="true" />
+  <metadata
+     id="metadata7">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(383.35712,-224.77133)">
+    <text
+       xml:space="preserve"
+       style="font-size:12px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:DejaVu Sans;-inkscape-font-specification:DejaVu Sans"
+       x="647.84265"
+       y="300.36795"
+       id="text2985"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan2987"
+         x="647.84265"
+         y="300.36795"
+         style="font-weight:bold;-inkscape-font-specification:DejaVu Sans Bold">ParserService</tspan></text>
+    <flowRoot
+       xml:space="preserve"
+       id="flowRoot2989"
+       style="font-size:10px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:DejaVu Serif;-inkscape-font-specification:DejaVu Serif"
+       transform="translate(0,308.2677)"><flowRegion
+         id="flowRegion2991"><rect
+           id="rect2993"
+           width="196.42857"
+           height="65"
+           x="45"
+           y="76.237335"
+           style="font-size:10px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:DejaVu Serif;-inkscape-font-specification:DejaVu Serif" /></flowRegion><flowPara
+         id="flowPara2995" /></flowRoot>    <flowRoot
+       xml:space="preserve"
+       id="flowRoot3005"
+       style="font-size:8px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:DejaVu Sans;-inkscape-font-specification:DejaVu Sans"
+       transform="translate(0,308.2677)"><flowRegion
+         id="flowRegion3007"><rect
+           id="rect3009"
+           width="165"
+           height="110.71429"
+           x="47.857143"
+           y="150.52306"
+           style="font-size:8px" /></flowRegion><flowPara
+         id="flowPara3011" /></flowRoot>    <flowRoot
+       xml:space="preserve"
+       id="flowRoot3013"
+       style="font-size:10px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:DejaVu Sans;-inkscape-font-specification:DejaVu Sans"
+       transform="translate(439.27128,230.55923)"><flowRegion
+         id="flowRegion3015"><rect
+           id="rect3017"
+           width="140.71428"
+           height="85"
+           x="206.42857"
+           y="76.951622" /></flowRegion><flowPara
+         id="flowPara3019"
+         style="font-size:8px">Loads the Groovy script and parses the Services to run.</flowPara></flowRoot>    <rect
+       style="fill:none;stroke:#000000;stroke-width:0.89827335"
+       id="rect3021"
+       width="129.38744"
+       height="49.387444"
+       x="642.07751"
+       y="282.45999" />
+    <text
+       xml:space="preserve"
+       style="font-size:12px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:DejaVu Sans;-inkscape-font-specification:DejaVu Sans"
+       x="626.6842"
+       y="695.45398"
+       id="text2985-6"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan2987-0"
+         x="626.6842"
+         y="695.45398"
+         style="font-weight:bold;-inkscape-font-specification:DejaVu Sans Bold">Database</tspan></text>
+    <flowRoot
+       xml:space="preserve"
+       id="flowRoot3013-7"
+       style="font-size:10px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:DejaVu Sans;-inkscape-font-specification:DejaVu Sans"
+       transform="translate(418.11277,625.64516)"><flowRegion
+         id="flowRegion3015-0"><rect
+           id="rect3017-4"
+           width="140.71428"
+           height="85"
+           x="206.42857"
+           y="76.951622" /></flowRegion><flowPara
+         id="flowPara3019-8"
+         style="font-size:8px">- bind</flowPara><flowPara
+         style="font-size:8px"
+         id="flowPara3059">- admin</flowPara><flowPara
+         style="font-size:8px"
+         id="flowPara3061">- user, access</flowPara></flowRoot>    <rect
+       style="fill:none;stroke:#000000;stroke-width:0.98832834"
+       id="rect3021-5"
+       width="129.38744"
+       height="59.786346"
+       x="620.91907"
+       y="677.54596" />
+    <text
+       xml:space="preserve"
+       style="font-size:12px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:DejaVu Sans;-inkscape-font-specification:DejaVu Sans"
+       x="15.602269"
+       y="779.95862"
+       id="text2985-6-6"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan2987-0-8"
+         x="15.602269"
+         y="779.95862"
+         style="font-weight:bold;-inkscape-font-specification:DejaVu Sans Bold">Database_Mysql</tspan></text>
+    <flowRoot
+       xml:space="preserve"
+       id="flowRoot3013-7-4"
+       style="font-size:10px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:DejaVu Sans;-inkscape-font-specification:DejaVu Sans"
+       transform="translate(-192.96918,710.14982)"><flowRegion
+         id="flowRegion3015-0-5"><rect
+           id="rect3017-4-9"
+           width="140.71428"
+           height="85"
+           x="206.42857"
+           y="76.951622" /></flowRegion><flowPara
+         style="font-size:8px"
+         id="flowPara3061-4">Installs and configures MySQL server,</flowPara></flowRoot>    <rect
+       style="fill:none;stroke:#000000;stroke-width:0.90569174"
+       id="rect3021-5-7"
+       width="129.38744"
+       height="50.206543"
+       x="9.8371315"
+       y="762.0506" />
+    <text
+       xml:space="preserve"
+       style="font-size:12px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:DejaVu Sans;-inkscape-font-specification:DejaVu Sans"
+       x="-277.25491"
+       y="886.8913"
+       id="text2985-6-6-9"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan2987-0-8-4"
+         x="-277.25491"
+         y="886.8913"
+         style="font-weight:bold;-inkscape-font-specification:DejaVu Sans Bold">Database_Mysql_Ubuntu</tspan></text>
+    <flowRoot
+       xml:space="preserve"
+       id="flowRoot3013-7-4-7"
+       style="font-size:10px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:DejaVu Sans;-inkscape-font-specification:DejaVu Sans"
+       transform="translate(-485.82633,817.08259)"><flowRegion
+         id="flowRegion3015-0-5-1"><rect
+           id="rect3017-4-9-5"
+           width="140.71428"
+           height="85"
+           x="206.42857"
+           y="76.951622" /></flowRegion><flowPara
+         style="font-size:8px"
+         id="flowPara3061-4-3">Installs and configures MySQL on a Ubuntu server,</flowPara></flowRoot>    <rect
+       style="fill:none;stroke:#000000;stroke-width:1.04755783"
+       id="rect3021-5-7-3"
+       width="173.09612"
+       height="50.206543"
+       x="-283.02005"
+       y="868.98334" />
+    <text
+       xml:space="preserve"
+       style="font-size:12px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:DejaVu Sans;-inkscape-font-specification:DejaVu Sans"
+       x="-303.16751"
+       y="999.03412"
+       id="text2985-6-6-9-4"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan2987-0-8-4-0"
+         x="-303.16751"
+         y="999.03412"
+         style="font-weight:bold;-inkscape-font-specification:DejaVu Sans Bold">Database_Mysql_Ubuntu_14_04</tspan></text>
+    <flowRoot
+       xml:space="preserve"
+       id="flowRoot3013-7-4-7-4"
+       style="font-size:10px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:DejaVu Sans;-inkscape-font-specification:DejaVu Sans"
+       transform="translate(-511.73897,929.22539)"><flowRegion
+         id="flowRegion3015-0-5-1-2"><rect
+           id="rect3017-4-9-5-1"
+           width="140.71428"
+           height="85"
+           x="206.42857"
+           y="76.951622" /></flowRegion><flowPara
+         style="font-size:8px"
+         id="flowPara3061-4-3-0">Installs and configures MySQL on a Ubuntu 14.04 server,</flowPara></flowRoot>    <rect
+       style="fill:none;stroke:#000000;stroke-width:1.19087958"
+       id="rect3021-5-7-3-3"
+       width="223.70053"
+       height="50.206543"
+       x="-308.93268"
+       y="981.12616" />
+    <text
+       xml:space="preserve"
+       style="font-size:12px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:DejaVu Sans;-inkscape-font-specification:DejaVu Sans"
+       x="-6.2520709"
+       y="886.8913"
+       id="text2985-6-6-9-0"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan2987-0-8-4-8"
+         x="-6.2520709"
+         y="886.8913"
+         style="font-weight:bold;-inkscape-font-specification:DejaVu Sans Bold">Database_Mysql_Debian</tspan></text>
+    <flowRoot
+       xml:space="preserve"
+       id="flowRoot3013-7-4-7-40"
+       style="font-size:10px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:DejaVu Sans;-inkscape-font-specification:DejaVu Sans"
+       transform="translate(-214.82352,817.08259)"><flowRegion
+         id="flowRegion3015-0-5-1-8"><rect
+           id="rect3017-4-9-5-8"
+           width="140.71428"
+           height="85"
+           x="206.42857"
+           y="76.951622" /></flowRegion><flowPara
+         style="font-size:8px"
+         id="flowPara3061-4-3-05">Installs and configures MySQL on a Debian server,</flowPara></flowRoot>    <rect
+       style="fill:none;stroke:#000000;stroke-width:1.04755783"
+       id="rect3021-5-7-3-6"
+       width="173.09612"
+       height="50.206543"
+       x="-12.017238"
+       y="868.98334" />
+    <text
+       xml:space="preserve"
+       style="font-size:12px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:DejaVu Sans;-inkscape-font-specification:DejaVu Sans"
+       x="260.17651"
+       y="886.17706"
+       id="text2985-6-6-9-0-0"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan2987-0-8-4-8-9"
+         x="260.17651"
+         y="886.17706"
+         style="font-weight:bold;-inkscape-font-specification:DejaVu Sans Bold">Database_Mysql_Redhat</tspan></text>
+    <flowRoot
+       xml:space="preserve"
+       id="flowRoot3013-7-4-7-40-2"
+       style="font-size:10px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:DejaVu Sans;-inkscape-font-specification:DejaVu Sans"
+       transform="translate(51.605063,816.36829)"><flowRegion
+         id="flowRegion3015-0-5-1-8-2"><rect
+           id="rect3017-4-9-5-8-7"
+           width="140.71428"
+           height="85"
+           x="206.42857"
+           y="76.951622" /></flowRegion><flowPara
+         style="font-size:8px"
+         id="flowPara3061-4-3-05-5">Installs and configures MySQL on a Redhat server,</flowPara></flowRoot>    <rect
+       style="fill:none;stroke:#000000;stroke-width:1.04755783"
+       id="rect3021-5-7-3-6-6"
+       width="173.09612"
+       height="50.206543"
+       x="254.41133"
+       y="868.26898" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:4, 4;stroke-dashoffset:0;marker-end:url(#Arrow1Lend)"
+       d="M -132.85202,868.98334 10.910877,812.25714"
+       id="path3258"
+       inkscape:connector-type="polyline"
+       inkscape:connector-curvature="0"
+       inkscape:connection-start="#rect3021-5-7-3"
+       inkscape:connection-start-point="d4"
+       inkscape:connection-end="#rect3021-5-7"
+       inkscape:connection-end-point="d4" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:4, 4;stroke-dashoffset:0;marker-end:url(#Arrow1Lend)"
+       d="m -196.94577,981.12616 0.33713,-61.93628"
+       id="path3260"
+       inkscape:connector-type="polyline"
+       inkscape:connector-curvature="0"
+       inkscape:connection-start="#rect3021-5-7-3-3"
+       inkscape:connection-start-point="d4"
+       inkscape:connection-end="#rect3021-5-7-3"
+       inkscape:connection-end-point="d4" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:4, 4;stroke-dashoffset:0;marker-end:url(#Arrow1Lend)"
+       d="m 74.530827,868.98334 1.6e-5,-56.7262"
+       id="path3262"
+       inkscape:connector-type="polyline"
+       inkscape:connector-curvature="0"
+       inkscape:connection-start="#rect3021-5-7-3-6"
+       inkscape:connection-start-point="d4"
+       inkscape:connection-end="#rect3021-5-7"
+       inkscape:connection-end-point="d4" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:4, 4;stroke-dashoffset:0;marker-end:url(#Arrow1Lend)"
+       d="M 277.99262,868.26898 137.49761,812.25714"
+       id="path3266"
+       inkscape:connector-type="polyline"
+       inkscape:connector-curvature="0"
+       inkscape:connection-start="#rect3021-5-7-3-6-6"
+       inkscape:connection-start-point="d4"
+       inkscape:connection-end="#rect3021-5-7"
+       inkscape:connection-end-point="d4" />
+    <text
+       xml:space="preserve"
+       style="font-size:12px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:DejaVu Sans;-inkscape-font-specification:DejaVu Sans"
+       x="631.90826"
+       y="508.13776"
+       id="text2985-7"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan2987-6"
+         x="631.90826"
+         y="508.13776"
+         style="font-weight:bold;-inkscape-font-specification:DejaVu Sans Bold">ScriptsRepository</tspan></text>
+    <flowRoot
+       xml:space="preserve"
+       id="flowRoot3013-2"
+       style="font-size:10px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:DejaVu Sans;-inkscape-font-specification:DejaVu Sans"
+       transform="translate(427.62255,438.32899)"><flowRegion
+         id="flowRegion3015-4"><rect
+           id="rect3017-7"
+           width="140.71428"
+           height="85"
+           x="206.42857"
+           y="76.951622" /></flowRegion><flowPara
+         id="flowPara3019-87"
+         style="font-size:8px">Contains the services.</flowPara></flowRoot>    <rect
+       style="fill:none;stroke:#000000;stroke-width:0.85678393"
+       id="rect3021-2"
+       width="142.28607"
+       height="40.857506"
+       x="626.12238"
+       y="490.20898" />
+    <text
+       sodipodi:linespacing="125%"
+       id="text4909"
+       y="696.29077"
+       x="811.5058"
+       style="font-size:12px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:DejaVu Sans;-inkscape-font-specification:DejaVu Sans"
+       xml:space="preserve"><tspan
+         style="font-weight:bold;-inkscape-font-specification:DejaVu Sans Bold"
+         y="696.29077"
+         x="811.5058"
+         id="tspan4911"
+         sodipodi:role="line">Dhclient</tspan></text>
+    <flowRoot
+       transform="translate(602.93436,626.48199)"
+       style="font-size:10px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:DejaVu Sans;-inkscape-font-specification:DejaVu Sans"
+       id="flowRoot4913"
+       xml:space="preserve"><flowRegion
+         id="flowRegion4915"><rect
+           y="76.951622"
+           x="206.42857"
+           height="85"
+           width="140.71428"
+           id="rect4917" /></flowRegion><flowPara
+         style="font-size:8px"
+         id="flowPara4919">- requests</flowPara><flowPara
+         id="flowPara4923"
+         style="font-size:8px">- prepend</flowPara></flowRoot>    <rect
+       y="678.2196"
+       x="805.57751"
+       height="50.82695"
+       width="68.285179"
+       id="rect4925"
+       style="fill:none;stroke:#000000;stroke-width:0.66200984" />
+    <text
+       sodipodi:linespacing="125%"
+       id="text4909-2"
+       y="601.44849"
+       x="671.78577"
+       style="font-size:12px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:DejaVu Sans;-inkscape-font-specification:DejaVu Sans"
+       xml:space="preserve"><tspan
+         style="font-weight:bold;-inkscape-font-specification:DejaVu Sans Bold"
+         y="601.44849"
+         x="671.78577"
+         id="tspan4911-7"
+         sodipodi:role="line">Script</tspan></text>
+    <rect
+       y="583.2785"
+       x="666.4729"
+       height="26.02457"
+       width="65.625656"
+       id="rect4925-3"
+       style="fill:none;stroke:#000000;stroke-width:0.46438995" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:4, 4;stroke-dashoffset:0;marker-end:url(#EmptyTriangleOutL)"
+       d="m 689.2901,677.54596 8.39492,-68.24289"
+       id="path5162"
+       inkscape:connector-type="polyline"
+       inkscape:connector-curvature="0"
+       inkscape:connection-start="#rect3021-5"
+       inkscape:connection-start-point="d4"
+       inkscape:connection-end="#rect4925-3"
+       inkscape:connection-end-point="d4" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:4, 4;stroke-dashoffset:0;marker-end:url(#EmptyTriangleOutL)"
+       d="M 806.47202,678.2196 716.30951,609.30307"
+       id="path5164"
+       inkscape:connector-type="polyline"
+       inkscape:connector-curvature="0"
+       inkscape:connection-end-point="d4"
+       inkscape:connection-end="#rect4925-3"
+       inkscape:connection-start-point="d4"
+       inkscape:connection-start="#rect4925" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker-end:url(#DiamondLend)"
+       d="m 698.9788,583.2785 -1.23153,-52.21201"
+       id="path5166"
+       inkscape:connector-type="polyline"
+       inkscape:connector-curvature="0"
+       inkscape:connection-start="#rect4925-3"
+       inkscape:connection-start-point="d4"
+       inkscape:connection-end="#rect3021-2"
+       inkscape:connection-end-point="d4" />
+    <text
+       xml:space="preserve"
+       style="font-size:12px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:DejaVu Sans;-inkscape-font-specification:DejaVu Sans"
+       x="976.39941"
+       y="706.24609"
+       id="text2985-7-6"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan2987-6-4"
+         x="976.39941"
+         y="706.24609"
+         style="font-weight:bold;-inkscape-font-specification:DejaVu Sans Bold">Profile</tspan></text>
+    <flowRoot
+       xml:space="preserve"
+       id="flowRoot3013-2-3"
+       style="font-size:10px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:DejaVu Sans;-inkscape-font-specification:DejaVu Sans"
+       transform="translate(769.76162,635.42722)"><flowRegion
+         id="flowRegion3015-4-4"><rect
+           id="rect3017-7-4"
+           width="140.71428"
+           height="85"
+           x="206.42857"
+           y="76.951622" /></flowRegion><flowPara
+         id="flowPara3019-87-5"
+         style="font-size:8px">Contains the profile properties that are needed to install and configure a service.</flowPara></flowRoot>    <rect
+       style="fill:none;stroke:#000000;stroke-width:1.08010471"
+       id="rect3021-2-1"
+       width="134.26537"
+       height="68.811234"
+       x="969.98102"
+       y="677.64893" />
+    <text
+       xml:space="preserve"
+       style="font-size:10px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:DejaVu Sans;-inkscape-font-specification:DejaVu Sans"
+       x="1002.4708"
+       y="690.13879"
+       id="text5586"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan5588"
+         x="1002.4708"
+         y="690.13879"
+         style="font-size:8px">&lt;&lt;value object&gt;&gt;</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:10px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:DejaVu Sans;-inkscape-font-specification:DejaVu Sans"
+       x="707.19366"
+       y="407.55655"
+       id="text6164"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan6166"
+         x="707.19366"
+         y="407.55655"
+         style="font-size:8px">&lt;&lt;create&gt;&gt;</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:12px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:DejaVu Sans;-inkscape-font-specification:DejaVu Sans"
+       x="329.99606"
+       y="306.89484"
+       id="text2985-7-0"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan2987-6-6"
+         x="329.99606"
+         y="306.89484"
+         style="font-weight:bold;-inkscape-font-specification:DejaVu Sans Bold">AppService</tspan></text>
+    <flowRoot
+       xml:space="preserve"
+       id="flowRoot3013-2-34"
+       style="font-size:10px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:DejaVu Sans;-inkscape-font-specification:DejaVu Sans"
+       transform="translate(125.71037,237.08602)"><flowRegion
+         id="flowRegion3015-4-0"><rect
+           id="rect3017-7-0"
+           width="140.71428"
+           height="85"
+           x="206.42857"
+           y="76.951622" /></flowRegion><flowPara
+         id="flowPara3019-87-1"
+         style="font-size:8px">startServices(profile)</flowPara></flowRoot>    <rect
+       style="fill:none;stroke:#000000;stroke-width:0.79619718"
+       id="rect3021-2-6"
+       width="121.20936"
+       height="41.41872"
+       x="324.28671"
+       y="289.0426" />
+    <rect
+       style="fill:none;stroke:#000000;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
+       id="rect6413"
+       width="270.38214"
+       height="119.44919"
+       x="247.48434"
+       y="252.31834" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:4, 4;stroke-dashoffset:0;marker-end:url(#Arrow1Lend)"
+       d="m 771.46495,-1.1139868 265.64875,0 0,370.4952168"
+       id="path6415"
+       inkscape:connector-type="orthogonal"
+       inkscape:connector-curvature="0"
+       transform="translate(0,308.2677)"
+       inkscape:connection-end-point="d4"
+       inkscape:connection-end="#rect3021-2-1"
+       inkscape:connection-start-point="d4"
+       inkscape:connection-start="#rect3021" />
+    <text
+       xml:space="preserve"
+       style="font-size:10px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:DejaVu Sans;-inkscape-font-specification:DejaVu Sans"
+       x="547.36493"
+       y="303.9155"
+       id="text6164-7-8"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan6166-7-1"
+         x="547.36493"
+         y="303.9155"
+         style="font-size:8px">&lt;&lt;use&gt;&gt;</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:10px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:DejaVu Sans;-inkscape-font-specification:DejaVu Sans"
+       x="871.29187"
+       y="399.39987"
+       id="text6164-4"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan6166-6"
+         x="871.29187"
+         y="399.39987"
+         style="font-size:8px">&lt;&lt;create&gt;&gt;</tspan></text>
+    <path
+       style="fill:none;stroke:#000000;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:4, 4;stroke-dashoffset:0;marker-end:url(#Arrow1Lend)"
+       d="M 445.49607,0.99505503 642.07751,-0.59177198"
+       id="path6647"
+       inkscape:connector-type="polyline"
+       inkscape:connector-curvature="0"
+       inkscape:connection-start="#rect3021-2-6"
+       inkscape:connection-start-point="d4"
+       inkscape:connection-end="#rect3021"
+       inkscape:connection-end-point="d4"
+       transform="translate(0,308.2677)" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker-start:url(#EmptyDiamondLstart)"
+       d="M 417.0941,22.193623 665.49904,181.94128"
+       id="path7023"
+       inkscape:connector-type="polyline"
+       inkscape:connector-curvature="0"
+       inkscape:connection-start="#rect3021-2-6"
+       inkscape:connection-start-point="d4"
+       inkscape:connection-end="#rect3021-2"
+       inkscape:connection-end-point="d4"
+       transform="translate(0,308.2677)" />
+    <text
+       xml:space="preserve"
+       style="font-size:12px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:DejaVu Sans;-inkscape-font-specification:DejaVu Sans"
+       x="802.62256"
+       y="508.85205"
+       id="text2985-7-8"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan2987-6-8"
+         x="802.62256"
+         y="508.85205"
+         style="font-weight:bold;-inkscape-font-specification:DejaVu Sans Bold">ScriptsProvider</tspan></text>
+    <flowRoot
+       xml:space="preserve"
+       id="flowRoot3013-2-1"
+       style="font-size:10px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:DejaVu Sans;-inkscape-font-specification:DejaVu Sans"
+       transform="translate(598.33684,439.04324)"><flowRegion
+         id="flowRegion3015-4-8"><rect
+           id="rect3017-7-47"
+           width="140.71428"
+           height="85"
+           x="206.42857"
+           y="76.951622" /></flowRegion><flowPara
+         id="flowPara3019-87-9"
+         style="font-size:8px">Loads the scripts based on name.</flowPara></flowRoot>    <rect
+       style="fill:none;stroke:#000000;stroke-width:0.92042571"
+       id="rect3021-2-4"
+       width="146.50815"
+       height="45.793861"
+       x="796.86847"
+       y="490.95505" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker-start:url(#EmptyDiamondLstart)"
+       d="M 726.2864,23.579735 852.02736,182.68735"
+       id="path7437"
+       inkscape:connector-type="polyline"
+       inkscape:connector-curvature="0"
+       inkscape:connection-start="#rect3021"
+       inkscape:connection-start-point="d4"
+       inkscape:connection-end="#rect3021-2-4"
+       inkscape:connection-end-point="d4"
+       transform="translate(0,308.2677)" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:4, 4;stroke-dashoffset:0;marker-end:url(#Arrow1Lend)"
+       d="M 822.67355,536.74891 726.25091,583.2785"
+       id="path7631"
+       inkscape:connector-type="polyline"
+       inkscape:connector-curvature="0"
+       inkscape:connection-start="#rect3021-2-4"
+       inkscape:connection-start-point="d4"
+       inkscape:connection-end="#rect4925-3"
+       inkscape:connection-end-point="d4" />
+    <text
+       xml:space="preserve"
+       style="font-size:10px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:DejaVu Sans;-inkscape-font-specification:DejaVu Sans"
+       x="762.45428"
+       y="576.54272"
+       id="text6164-4-7"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan6166-6-2"
+         x="762.45428"
+         y="576.54272"
+         style="font-size:8px">&lt;&lt;create&gt;&gt;</tspan></text>
+    <path
+       style="fill:none;stroke:#000000;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:4, 4;stroke-dashoffset:0;marker-end:url(#Arrow1Lend)"
+       d="M 705.61766,23.579735 698.21975,181.94128"
+       id="path7844"
+       inkscape:connector-type="polyline"
+       inkscape:connector-curvature="0"
+       inkscape:connection-start="#rect3021"
+       inkscape:connection-start-point="d4"
+       inkscape:connection-end="#rect3021-2"
+       inkscape:connection-end-point="d4"
+       transform="translate(0,308.2677)" />
+    <text
+       xml:space="preserve"
+       style="font-size:10px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:DejaVu Sans;-inkscape-font-specification:DejaVu Sans"
+       x="703.52942"
+       y="577.06635"
+       id="text8226"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan8228"
+         x="703.52942"
+         y="577.06635"
+         style="font-size:8px">0..*</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:12px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:DejaVu Sans;-inkscape-font-specification:DejaVu Sans"
+       x="-94.122917"
+       y="487.17838"
+       id="text2985-7-03"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan2987-6-86"
+         x="-94.122917"
+         y="487.17838"
+         style="font-weight:bold;-inkscape-font-specification:DejaVu Sans Bold">ServicesService</tspan></text>
+    <flowRoot
+       xml:space="preserve"
+       id="flowRoot3013-2-9"
+       style="font-size:10px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:DejaVu Sans;-inkscape-font-specification:DejaVu Sans"
+       transform="translate(-298.40862,417.36956)"><flowRegion
+         id="flowRegion3015-4-5"><rect
+           id="rect3017-7-8"
+           width="140.71428"
+           height="85"
+           x="206.42857"
+           y="76.951622" /></flowRegion><flowPara
+         id="flowPara3019-87-0"
+         style="font-size:8px">Contains the services.</flowPara></flowRoot>    <rect
+       style="fill:none;stroke:#000000;stroke-width:0.85678393"
+       id="rect3021-2-3"
+       width="142.28607"
+       height="40.857506"
+       x="-99.908813"
+       y="469.2496" />
+    <text
+       xml:space="preserve"
+       style="font-size:12px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:DejaVu Sans;-inkscape-font-specification:DejaVu Sans"
+       x="-157.91843"
+       y="569.50507"
+       id="text2985-7-8-1"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan2987-6-8-6"
+         x="-157.91843"
+         y="569.50507"
+         style="font-weight:bold;-inkscape-font-specification:DejaVu Sans Bold">ServicesProvider</tspan></text>
+    <flowRoot
+       xml:space="preserve"
+       id="flowRoot3013-2-1-3"
+       style="font-size:10px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:DejaVu Sans;-inkscape-font-specification:DejaVu Sans"
+       transform="translate(-362.20412,499.69626)"><flowRegion
+         id="flowRegion3015-4-8-1"><rect
+           id="rect3017-7-47-8"
+           width="140.71428"
+           height="85"
+           x="206.42857"
+           y="76.951622" /></flowRegion><flowPara
+         id="flowPara3019-87-9-1"
+         style="font-size:8px">Loads the services based on name.</flowPara></flowRoot>    <rect
+       style="fill:none;stroke:#000000;stroke-width:0.89183509"
+       id="rect3021-2-4-1"
+       width="129.39388"
+       height="48.679596"
+       x="-163.6868"
+       y="551.59381" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker-start:url(#EmptyDiamondLstart)"
+       d="m -45.397697,510.10711 -33.776095,41.4867"
+       id="path8302"
+       inkscape:connector-type="polyline"
+       inkscape:connector-curvature="0"
+       inkscape:connection-start="#rect3021-2-3"
+       inkscape:connection-start-point="d4"
+       inkscape:connection-end="#rect3021-2-4-1"
+       inkscape:connection-end-point="d4" />
+    <text
+       sodipodi:linespacing="125%"
+       id="text4909-2-5"
+       y="686.38715"
+       x="43.163528"
+       style="font-size:12px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:DejaVu Sans;-inkscape-font-specification:DejaVu Sans"
+       xml:space="preserve"><tspan
+         style="font-weight:bold;-inkscape-font-specification:DejaVu Sans Bold"
+         y="686.38715"
+         x="43.163528"
+         id="tspan4911-7-2"
+         sodipodi:role="line">Service</tspan></text>
+    <rect
+       y="667.20703"
+       x="41.891304"
+       height="26.02457"
+       width="65.625656"
+       id="rect4925-3-2"
+       style="fill:none;stroke:#000000;stroke-width:0.46438995" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:4, 4;stroke-dashoffset:0;marker-start:url(#EmptyTriangleInL)"
+       d="m 71.138604,694.24175 2.475719,67.80885"
+       id="path8518"
+       inkscape:connector-type="polyline"
+       inkscape:connector-curvature="0"
+       inkscape:connection-end="#rect3021-5-7"
+       inkscape:connection-end-point="d4" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:4, 4;stroke-dashoffset:0;marker-end:url(#Arrow1Lend)"
+       d="M -58.450492,600.27341 53.031404,667.20703"
+       id="path8904"
+       inkscape:connector-type="polyline"
+       inkscape:connector-curvature="0"
+       inkscape:connection-start="#rect3021-2-4-1"
+       inkscape:connection-start-point="d4"
+       inkscape:connection-end="#rect4925-3-2"
+       inkscape:connection-end-point="d4" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:4, 4;stroke-dashoffset:0;marker-end:url(#Arrow1Lend)"
+       d="M 337.27984,22.193623 18.200651,160.9819"
+       id="path8906"
+       inkscape:connector-type="polyline"
+       inkscape:connector-curvature="0"
+       inkscape:connection-start="#rect3021-2-6"
+       inkscape:connection-start-point="d4"
+       inkscape:connection-end="#rect3021-2-3"
+       inkscape:connection-end-point="d4"
+       transform="translate(0,308.2677)" />
+    <text
+       xml:space="preserve"
+       style="font-size:12px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:DejaVu Sans;-inkscape-font-specification:DejaVu Sans"
+       x="14.224442"
+       y="569.14789"
+       id="text2985-7-2"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan2987-6-0"
+         x="14.224442"
+         y="569.14789"
+         style="font-weight:bold;-inkscape-font-specification:DejaVu Sans Bold">ServicesRepository</tspan></text>
+    <flowRoot
+       xml:space="preserve"
+       id="flowRoot3013-2-30"
+       style="font-size:10px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:DejaVu Sans;-inkscape-font-specification:DejaVu Sans"
+       transform="translate(-190.06127,499.33911)"><flowRegion
+         id="flowRegion3015-4-1"><rect
+           id="rect3017-7-1"
+           width="140.71428"
+           height="85"
+           x="206.42857"
+           y="76.951622" /></flowRegion><flowPara
+         id="flowPara3019-87-7"
+         style="font-size:8px">Contains the services.</flowPara></flowRoot>    <rect
+       style="fill:none;stroke:#000000;stroke-width:0.85678393"
+       id="rect3021-2-12"
+       width="142.28607"
+       height="40.857506"
+       x="8.4385548"
+       y="551.21912" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker-start:url(#EmptyDiamondLstart)"
+       d="M -1.7630355,510.10711 52.578849,551.21912"
+       id="path9328"
+       inkscape:connector-type="polyline"
+       inkscape:connector-curvature="0"
+       inkscape:connection-start="#rect3021-2-3"
+       inkscape:connection-start-point="d4"
+       inkscape:connection-end="#rect3021-2-12"
+       inkscape:connection-end-point="d4" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker-start:url(#DiamondLstart)"
+       d="m 78.66385,592.07662 -3.375155,75.13041"
+       id="path9330"
+       inkscape:connector-type="polyline"
+       inkscape:connector-curvature="0"
+       inkscape:connection-start="#rect3021-2-12"
+       inkscape:connection-start-point="d4"
+       inkscape:connection-end="#rect4925-3-2"
+       inkscape:connection-end-point="d4" />
+    <text
+       xml:space="preserve"
+       style="font-size:10px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:DejaVu Sans;-inkscape-font-specification:DejaVu Sans"
+       x="81.037262"
+       y="660.27423"
+       id="text8226-1"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan8228-0"
+         x="81.037262"
+         y="660.27423"
+         style="font-size:8px">0..*</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:10px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:DejaVu Sans;-inkscape-font-specification:DejaVu Sans"
+       x="177.28804"
+       y="407.11417"
+       id="text6164-7-8-6"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan6166-7-1-2"
+         x="177.28804"
+         y="407.11417"
+         style="font-size:8px">&lt;&lt;use&gt;&gt;</tspan></text>
+    <rect
+       style="fill:none;stroke:#000000;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
+       id="rect9774"
+       width="222.23357"
+       height="103.03556"
+       x="-29.803717"
+       y="734.56256" />
+    <rect
+       style="fill:none;stroke:#000000;stroke-width:0.92684317;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
+       id="rect10160"
+       width="235.40198"
+       height="77.818176"
+       x="-317.73364"
+       y="852.71399" />
+    <rect
+       style="fill:none;stroke:#000000;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
+       id="rect10162"
+       width="217.1828"
+       height="88.893425"
+       x="-35.864651"
+       y="852.75043" />
+    <rect
+       style="fill:none;stroke:#000000;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
+       id="rect10164"
+       width="211.12189"
+       height="108.08632"
+       x="221.72427"
+       y="836.58801" />
+    <rect
+       style="fill:none;stroke:#000000;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
+       id="rect10166"
+       width="258.59906"
+       height="81.822357"
+       x="-329.81903"
+       y="959.8266" />
+    <rect
+       style="fill:none;stroke:#000000;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
+       id="rect10168"
+       width="378.80719"
+       height="163.64471"
+       x="180.81731"
+       y="226.94853"
+       transform="translate(-383.35712,224.77133)" />
+    <rect
+       style="fill:none;stroke:#000000;stroke-width:1.30247366;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
+       id="rect10172"
+       width="162.3396"
+       height="145.87248"
+       x="606.14435"
+       y="668.19232" />
+    <rect
+       style="fill:none;stroke:#000000;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
+       id="rect10174"
+       width="111.11678"
+       height="84.852814"
+       x="1167.7363"
+       y="439.08057"
+       transform="translate(-383.35712,224.77133)" />
+    <rect
+       style="fill:none;stroke:#000000;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
+       id="rect10178"
+       width="363.65491"
+       height="79.802048"
+       x="969.74646"
+       y="241.09067"
+       transform="translate(-383.35712,224.77133)" />
+    <rect
+       style="fill:none;stroke:#000000;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
+       id="rect10180"
+       width="153.54318"
+       height="89.90358"
+       x="959.13556"
+       y="664.75031" />
+    <text
+       xml:space="preserve"
+       style="font-size:10px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:DejaVu Sans;-inkscape-font-specification:DejaVu Sans"
+       x="-61.981831"
+       y="642.36017"
+       id="text6164-4-7-4"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan6166-6-2-9"
+         x="-61.981831"
+         y="642.36017"
+         style="font-size:8px">&lt;&lt;create&gt;&gt;</tspan></text>
+    <path
+       style="fill:none;stroke:#000000;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:3, 3;stroke-dashoffset:0;marker-end:url(#EmptyTriangleOutL)"
+       d="M 218.71518,644.21201 441.56214,468.46027"
+       id="path10443"
+       inkscape:connector-type="polyline"
+       inkscape:connector-curvature="0"
+       inkscape:connection-start="#rect3021-5-7-3"
+       inkscape:connection-start-point="d4"
+       inkscape:connection-end="#rect4925-3-2"
+       inkscape:connection-end-point="d4"
+       transform="translate(-383.35712,224.77133)" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:3, 3;stroke-dashoffset:0;marker-end:url(#EmptyTriangleOutL)"
+       d="M 692.95931,643.49765 474.31526,468.46027"
+       id="path10445"
+       inkscape:connector-type="polyline"
+       inkscape:connector-curvature="0"
+       inkscape:connection-start="#rect3021-5-7-3-6-6"
+       inkscape:connection-start-point="d4"
+       inkscape:connection-end="#rect4925-3-2"
+       inkscape:connection-end-point="d4"
+       transform="translate(-383.35712,224.77133)" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:3, 3;stroke-dashoffset:0;marker-end:url(#EmptyTriangleOutL)"
+       d="M 207.20268,756.35483 447.21323,468.46027"
+       id="path10447"
+       inkscape:connector-type="polyline"
+       inkscape:connector-curvature="0"
+       inkscape:connection-start="#rect3021-5-7-3-3"
+       inkscape:connection-start-point="d4"
+       inkscape:connection-end="#rect4925-3-2"
+       inkscape:connection-end-point="d4"
+       transform="translate(-383.35712,224.77133)" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:3, 3;stroke-dashoffset:0;marker-end:url(#EmptyTriangleOutL)"
+       d="M 88.693299,868.98334 88.835723,693.2316"
+       id="path10449"
+       inkscape:connector-type="polyline"
+       inkscape:connector-curvature="0" />
+    <rect
+       style="fill:none;stroke:#000000;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
+       id="rect10835"
+       width="208.09143"
+       height="110.10663"
+       x="985.90887"
+       y="30.978937"
+       transform="translate(-383.35712,224.77133)" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:3, 3;stroke-dashoffset:0;marker-end:url(#EmptyTriangleOutL)"
+       d="m 1342.4927,459.06561 -227.037,-76.49116"
+       id="path10837"
+       inkscape:connector-type="polyline"
+       inkscape:connector-curvature="0"
+       inkscape:connection-start="#rect10180"
+       inkscape:connection-start-point="d4"
+       inkscape:connection-end="#rect4925-3"
+       inkscape:connection-end-point="d4"
+       transform="translate(-383.35712,224.77133)" />
+    <text
+       xml:space="preserve"
+       style="font-size:12px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:DejaVu Sans;-inkscape-font-specification:DejaVu Sans"
+       x="628.02924"
+       y="790.98352"
+       id="text2985-6-2"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan2987-0-4"
+         x="628.02924"
+         y="790.98352"
+         style="font-weight:bold;-inkscape-font-specification:DejaVu Sans Bold">DatabaseService</tspan></text>
+    <rect
+       style="fill:none;stroke:#000000;stroke-width:0.68721193"
+       id="rect3021-5-4"
+       width="129.38744"
+       height="28.905525"
+       x="622.2641"
+       y="773.0755" />
+  </g>
+</svg>

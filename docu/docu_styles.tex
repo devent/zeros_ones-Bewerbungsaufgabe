@@ -1,0 +1,74 @@
+%%%%
+% styles for gsclock-2-docu
+%%%%
+
+\usepackage[parfill]{parskip}
+\usepackage[margin=10pt,font=footnotesize,labelfont=bf,labelsep=endash]{caption}
+
+% Title
+\setkomafont{title}{\Huge\sffamily\bfseries\selectfont}
+\setkomafont{subtitle}{\Large}
+\setkomafont{date}{\itshape}
+
+%%%%%%%%%%%%%%%%%%%%%%
+%% chapter format
+\usepackage[Glenn]{fncychap}
+%% section format
+\usepackage{titlesec}
+
+\titleformat{\section}[block]
+{\filcenter\large
+\addtolength{\titlewidth}{2pc}%
+\titleline*[c]{\titlerule*[.6pc]{\tiny\textbullet}}%
+\addvspace{6pt}%
+\Large\bfseries}
+{\thesection}{1em}{}
+
+\titleformat{\subsection}[hang]
+{\normalfont\bfseries}
+{\thesubsection}{1em}{}
+
+\titleformat{\subsubsection}
+{\normalfont\normalsize\bfseries}{\thesubsubsection}{1em}{}
+
+\titleformat{\paragraph}[runin]
+{\normalsize\bfseries}
+{\theparagraph}
+{1em}
+{}
+%%%%%%%%%%%%%%%%%%%%%%
+
+%%%%%%%%%%%%%%%%%%%%%%
+% for \pagestyle{scrheadings}
+\usepackage{scrpage2}
+\usepackage{lastpage}
+% the heading logo
+%\newcommand{\TheHeadingLogo}{\includegraphics[height=2em]{\TheLogo}}
+% the character to be used to seperate the actual page and the total page number
+\newcommand{\pagenumsep}{/}
+%
+\pagestyle{scrheadings}
+\clearscrheadfoot
+\automark[section]{subsection}
+\cohead[]{\AppName} 
+\cehead[]{\AppName} 
+\ihead[]{} 
+\rohead[]{\rightmark}
+\lehead[]{\leftmark}
+\ofoot{\pagemark~\pagenumsep~\pageref{LastPage}}
+\setheadsepline[1.0\textwidth]{1pt}
+%%%%%%%%%%%%%%%%%%%%%%
+
+% multi-columns
+\usepackage{multicol}
+\newcommand{\columnsepsize}{3em}
+\setlength\columnsep{\columnsepsize}
+\setlength\linewidth{0pt}
+\setlength\columnseprule{0pt}
+
+% vertical space
+\setlength{\parskip}{0.2em}
+
+% caption style
+\usepackage[format=plain,labelformat=parens,labelsep=quad]{caption}
+

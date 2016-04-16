@@ -1,0 +1,377 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="1052.3622"
+   height="744.09448"
+   id="svg3173"
+   version="1.1"
+   inkscape:version="0.48.5 r10040"
+   sodipodi:docname="New document 1">
+  <defs
+     id="defs3175">
+    <marker
+       inkscape:stockid="Arrow1Lend"
+       orient="auto"
+       refY="0.0"
+       refX="0.0"
+       id="Arrow1Lend"
+       style="overflow:visible;">
+      <path
+         id="path4273"
+         d="M 0.0,0.0 L 5.0,-5.0 L -12.5,0.0 L 5.0,5.0 L 0.0,0.0 z "
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1.0pt;"
+         transform="scale(0.8) rotate(180) translate(12.5,0)" />
+    </marker>
+    <marker
+       inkscape:stockid="Arrow1Lstart"
+       orient="auto"
+       refY="0.0"
+       refX="0.0"
+       id="Arrow1Lstart"
+       style="overflow:visible">
+      <path
+         id="path4270"
+         d="M 0.0,0.0 L 5.0,-5.0 L -12.5,0.0 L 5.0,5.0 L 0.0,0.0 z "
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1.0pt"
+         transform="scale(0.8) translate(12.5,0)" />
+    </marker>
+  </defs>
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="1.4"
+     inkscape:cx="486.70199"
+     inkscape:cy="504.28953"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     inkscape:connector-spacing="4"
+     inkscape:window-width="1920"
+     inkscape:window-height="1045"
+     inkscape:window-x="0"
+     inkscape:window-y="35"
+     inkscape:window-maximized="1" />
+  <metadata
+     id="metadata3178">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(0,-308.2677)">
+    <g
+       id="g4156"
+       transform="translate(-36.853615,50.669945)">
+      <text
+         sodipodi:linespacing="125%"
+         id="text2985-7-0"
+         y="378.50635"
+         x="98.99086"
+         style="font-size:12px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:DejaVu Sans;-inkscape-font-specification:DejaVu Sans"
+         xml:space="preserve"><tspan
+           style="font-weight:bold;-inkscape-font-specification:DejaVu Sans Bold"
+           y="378.50635"
+           x="98.99086"
+           id="tspan2987-6-6"
+           sodipodi:role="line">sscontrol-osgi-types</tspan></text>
+      <flowRoot
+         transform="translate(-105.29481,308.69753)"
+         style="font-size:10px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:DejaVu Sans;-inkscape-font-specification:DejaVu Sans"
+         id="flowRoot3013-2-34"
+         xml:space="preserve"><flowRegion
+           id="flowRegion3015-4-0"><rect
+             y="76.951622"
+             x="206.42857"
+             height="85"
+             width="140.71428"
+             id="rect3017-7-0" /></flowRegion><flowPara
+           style="font-size:8px"
+           id="flowPara3019-87-1">- shared types</flowPara><flowPara
+           id="flowPara3219"
+           style="font-size:8px">- shared exceptions</flowPara><flowPara
+           id="flowPara3221"
+           style="font-size:8px">- shared utility services</flowPara><flowPara
+           id="flowPara3217"
+           style="font-size:8px" /></flowRoot>      <rect
+         y="360.65411"
+         x="93.281509"
+         height="60.359898"
+         width="149.32698"
+         id="rect3021-2-6"
+         style="fill:none;stroke:#000000;stroke-width:1;stroke-miterlimit:4;stroke-dasharray:none" />
+    </g>
+    <g
+       id="g4168"
+       transform="translate(323.14798,134.62)">
+      <text
+         sodipodi:linespacing="125%"
+         id="text2985-7-0-1"
+         y="522.17731"
+         x="77.474434"
+         style="font-size:12px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:DejaVu Sans;-inkscape-font-specification:DejaVu Sans"
+         xml:space="preserve"><tspan
+           style="font-weight:bold;-inkscape-font-specification:DejaVu Sans Bold"
+           y="522.17731"
+           x="77.474434"
+           id="tspan2987-6-6-7"
+           sodipodi:role="line">sscontrol-osgi-parser</tspan></text>
+      <rect
+         y="504.16531"
+         x="71.605286"
+         height="27.822355"
+         width="158.9323"
+         id="rect3021-2-6-3"
+         style="fill:none;stroke:#000000;stroke-width:1;stroke-miterlimit:4;stroke-dasharray:none" />
+    </g>
+    <g
+       id="g4173"
+       transform="translate(7.6567493,138.57143)">
+      <text
+         sodipodi:linespacing="125%"
+         id="text2985-7-0-1-7"
+         y="608.60583"
+         x="60.688713"
+         style="font-size:12px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:DejaVu Sans;-inkscape-font-specification:DejaVu Sans"
+         xml:space="preserve"><tspan
+           style="font-weight:bold;-inkscape-font-specification:DejaVu Sans Bold"
+           y="608.60583"
+           x="60.688713"
+           id="tspan2987-6-6-7-0"
+           sodipodi:role="line">sscontrol-osgi-groovy-parser</tspan></text>
+      <rect
+         y="590.59387"
+         x="54.819565"
+         height="27.822355"
+         width="208.50096"
+         id="rect3021-2-6-3-9"
+         style="fill:none;stroke:#000000;stroke-width:1;stroke-miterlimit:4;stroke-dasharray:none" />
+    </g>
+    <g
+       id="g4183"
+       transform="translate(370.66326,-122.12693)">
+      <text
+         sodipodi:linespacing="125%"
+         id="text2985-7-0-1-7-9"
+         y="551.46295"
+         x="314.4758"
+         style="font-size:12px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:DejaVu Sans;-inkscape-font-specification:DejaVu Sans"
+         xml:space="preserve"><tspan
+           style="font-weight:bold;-inkscape-font-specification:DejaVu Sans Bold"
+           y="551.46295"
+           x="314.4758"
+           id="tspan2987-6-6-7-0-7"
+           sodipodi:role="line">sscontrol-osgi-dhclient</tspan></text>
+      <rect
+         y="533.45099"
+         x="308.60666"
+         height="27.822355"
+         width="169.54121"
+         id="rect3021-2-6-3-9-6"
+         style="fill:none;stroke:#000000;stroke-width:1;stroke-miterlimit:4;stroke-dasharray:none" />
+    </g>
+    <g
+       id="g4178"
+       transform="translate(-219.03139,-321.7818)">
+      <text
+         sodipodi:linespacing="125%"
+         id="text2985-7-0-1-7-9-3"
+         y="670.03442"
+         x="278.24139"
+         style="font-size:12px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:DejaVu Sans;-inkscape-font-specification:DejaVu Sans"
+         xml:space="preserve"><tspan
+           style="font-weight:bold;-inkscape-font-specification:DejaVu Sans Bold"
+           y="670.03442"
+           x="278.24139"
+           id="tspan2987-6-6-7-0-7-9"
+           sodipodi:role="line">sscontrol-osgi-debug</tspan></text>
+      <rect
+         y="652.02246"
+         x="272.37225"
+         height="27.822355"
+         width="155.50105"
+         id="rect3021-2-6-3-9-6-8"
+         style="fill:none;stroke:#000000;stroke-width:1;stroke-miterlimit:4;stroke-dasharray:none" />
+    </g>
+    <g
+       id="g4188"
+       transform="translate(348.32626,-77.2618)"
+       inkscape:connector-avoid="true">
+      <text
+         sodipodi:linespacing="125%"
+         id="text2985-7-0-1-7-9-9"
+         y="427.17725"
+         x="336.81281"
+         style="font-size:12px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:DejaVu Sans;-inkscape-font-specification:DejaVu Sans"
+         xml:space="preserve"><tspan
+           style="font-weight:bold;-inkscape-font-specification:DejaVu Sans Bold"
+           y="427.17725"
+           x="336.81281"
+           id="tspan2987-6-6-7-0-7-0"
+           sodipodi:role="line">sscontrol-osgi-database</tspan></text>
+      <rect
+         y="409.16528"
+         x="330.94366"
+         height="27.822355"
+         width="174.77864"
+         id="rect3021-2-6-3-9-6-0"
+         style="fill:none;stroke:#000000;stroke-width:1;stroke-miterlimit:4;stroke-dasharray:none" />
+    </g>
+    <g
+       id="g4193"
+       transform="translate(-438.32291,163.73242)">
+      <text
+         sodipodi:linespacing="125%"
+         id="text2985-7-0-1-7-9-9-1"
+         y="492.17722"
+         x="500.62268"
+         style="font-size:12px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:DejaVu Sans;-inkscape-font-specification:DejaVu Sans"
+         xml:space="preserve"><tspan
+           style="font-weight:bold;-inkscape-font-specification:DejaVu Sans Bold"
+           y="492.17722"
+           x="500.62268"
+           id="tspan2987-6-6-7-0-7-0-9"
+           sodipodi:role="line">sscontrol-osgi-command-parse</tspan></text>
+      <rect
+         y="474.16528"
+         x="494.75354"
+         height="27.822355"
+         width="220.59233"
+         id="rect3021-2-6-3-9-6-0-8"
+         style="fill:none;stroke:#000000;stroke-width:1;stroke-miterlimit:4;stroke-dasharray:none" />
+    </g>
+    <path
+       style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker-end:url(#Arrow1Lend)"
+       d="M 679.26992,358.97176 205.75487,430.26288"
+       id="path4198"
+       inkscape:connector-type="polyline"
+       inkscape:connector-curvature="0"
+       inkscape:connection-start="#g4188"
+       inkscape:connection-start-point="d4"
+       inkscape:connection-end="#g4156"
+       inkscape:connection-end-point="d4" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker-start:none;marker-end:url(#Arrow1Lend)"
+       d="m 131.09139,358.06302 0,53.26104"
+       id="path4202"
+       inkscape:connector-type="polyline"
+       inkscape:connector-curvature="0"
+       inkscape:connection-start="#g4178"
+       inkscape:connection-start-point="d4"
+       inkscape:connection-end="#g4156"
+       inkscape:connection-end-point="d4" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker-end:url(#Arrow1Lend)"
+       d="m 679.26992,345.58556 -470.428,-1.23325"
+       id="path4204"
+       inkscape:connector-type="polyline"
+       inkscape:connector-curvature="0"
+       inkscape:connection-end-point="d4"
+       inkscape:connection-end="#g4178"
+       inkscape:connection-start-point="d4"
+       inkscape:connection-start="#g4188" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker-start:url(#Arrow1Lstart)"
+       d="m 277.02296,652.12726 117.73031,0.33984"
+       id="path4210"
+       inkscape:connector-type="polyline"
+       inkscape:connector-curvature="0"
+       inkscape:connection-start="#g4193"
+       inkscape:connection-start-point="d4"
+       inkscape:connection-end="#g4168"
+       inkscape:connection-end-point="d4" />
+    <g
+       id="g4156-9"
+       transform="translate(-38.659288,184.38526)">
+      <text
+         sodipodi:linespacing="125%"
+         id="text2985-7-0-2"
+         y="378.50635"
+         x="98.99086"
+         style="font-size:12px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:DejaVu Sans;-inkscape-font-specification:DejaVu Sans"
+         xml:space="preserve"><tspan
+           style="font-weight:bold;-inkscape-font-specification:DejaVu Sans Bold"
+           y="378.50635"
+           x="98.99086"
+           id="tspan2987-6-6-1"
+           sodipodi:role="line">sscontrol-osgi-types</tspan></text>
+      <flowRoot
+         transform="translate(-105.29481,308.69753)"
+         style="font-size:10px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:DejaVu Sans;-inkscape-font-specification:DejaVu Sans"
+         id="flowRoot3013-2-34-6"
+         xml:space="preserve"><flowRegion
+           id="flowRegion3015-4-0-1"><rect
+             y="76.951622"
+             x="206.42857"
+             height="85"
+             width="140.71428"
+             id="rect3017-7-0-5" /></flowRegion><flowPara
+           style="font-size:8px"
+           id="flowPara3019-87-1-9">- shared types</flowPara><flowPara
+           id="flowPara3219-8"
+           style="font-size:8px">- shared exceptions</flowPara><flowPara
+           id="flowPara3221-0"
+           style="font-size:8px">- shared utility services</flowPara><flowPara
+           id="flowPara3217-0"
+           style="font-size:8px" /></flowRoot>      <rect
+         y="360.65411"
+         x="93.281509"
+         height="60.359898"
+         width="149.32698"
+         id="rect3021-2-6-1"
+         style="fill:none;stroke:#000000;stroke-width:1;stroke-miterlimit:4;stroke-dasharray:none" />
+    </g>
+    <path
+       style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker-end:url(#Arrow1Lend)"
+       d="M 412.28589,330.51761 203.9492,283.72214"
+       id="path4262"
+       inkscape:connector-type="polyline"
+       inkscape:connector-curvature="0"
+       inkscape:connection-start="#g4168"
+       inkscape:connection-start-point="d4"
+       inkscape:connection-end="#g4156-9"
+       inkscape:connection-end-point="d4"
+       transform="translate(0,308.2677)" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker-end:url(#Arrow1Lend)"
+       d="M 679.26992,427.41411 205.75487,439.58492"
+       id="path4264"
+       inkscape:connector-type="polyline"
+       inkscape:connector-curvature="0"
+       inkscape:connection-start="#g4183"
+       inkscape:connection-start-point="d4"
+       inkscape:connection-end="#g4156"
+       inkscape:connection-end-point="d4" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker-end:url(#Arrow1Lend)"
+       d="m 166.72679,420.8976 1e-5,-63.44524"
+       id="path6184"
+       inkscape:connector-type="polyline"
+       inkscape:connector-curvature="0"
+       inkscape:connection-start="#g4173"
+       inkscape:connection-start-point="d4"
+       inkscape:connection-end="#g4193"
+       inkscape:connection-end-point="d4"
+       transform="translate(0,308.2677)" />
+  </g>
+</svg>
