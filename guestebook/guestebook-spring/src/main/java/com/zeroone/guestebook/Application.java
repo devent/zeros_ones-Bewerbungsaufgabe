@@ -1,4 +1,4 @@
-package com.zeroone.guestebook.app;
+package com.zeroone.guestebook;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
