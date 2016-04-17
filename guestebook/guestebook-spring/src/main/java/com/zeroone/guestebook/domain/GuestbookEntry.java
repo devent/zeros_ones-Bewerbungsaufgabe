@@ -66,7 +66,7 @@ public class GuestbookEntry implements Serializable, IGuestbookEntry {
 
     @Override
     public Date getDate() {
-        return date;
+        return (Date) date.clone();
     }
 
     public Long getId() {
