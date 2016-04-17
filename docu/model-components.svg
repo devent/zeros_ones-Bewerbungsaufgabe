@@ -14,7 +14,7 @@
    id="svg2"
    version="1.1"
    inkscape:version="0.48.5 r10040"
-   sodipodi:docname="New document 1">
+   sodipodi:docname="model-components.svg">
   <defs
      id="defs4">
     <inkscape:path-effect
@@ -45,7 +45,7 @@
      inkscape:pageshadow="2"
      inkscape:zoom="1.4"
      inkscape:cx="233.07523"
-     inkscape:cy="188.80486"
+     inkscape:cy="182.73343"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="false"
@@ -68,7 +68,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -361,58 +361,6 @@
            y="291.21222" />
       </g>
     </g>
-    <g
-       id="g4442"
-       transform="translate(-387.76538,291.70895)">
-      <text
-         sodipodi:linespacing="125%"
-         id="text3023"
-         y="155.21933"
-         x="587.14288"
-         style="font-size:12px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;font-family:DejaVu Sans;-inkscape-font-specification:Sans Bold"
-         xml:space="preserve"><tspan
-           y="155.21933"
-           x="587.14288"
-           id="tspan3025"
-           sodipodi:role="line">Admin Console</tspan><tspan
-           id="tspan3027"
-           y="170.21933"
-           x="587.14288"
-           sodipodi:role="line">&lt;&lt;Web UI&gt;&gt;</tspan></text>
-      <rect
-         y="130.85794"
-         x="512.11908"
-         height="55.865635"
-         width="155.04749"
-         id="rect2985-6-29"
-         style="fill:none;stroke:#000000;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0" />
-      <g
-         style="stroke-width:2.30136991;stroke-miterlimit:4;stroke-dasharray:none"
-         transform="matrix(0.43452381,0,0,0.43452381,400.16506,19.253627)"
-         id="g3051-0-9">
-        <rect
-           style="fill:none;stroke:#000000;stroke-width:2.30136991;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
-           id="rect3029-5-3"
-           width="25.714285"
-           height="35"
-           x="574.28571"
-           y="270.21933" />
-        <rect
-           style="fill:none;stroke:#000000;stroke-width:2.30136991;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
-           id="rect3031-9-5"
-           width="19.305908"
-           height="8.586297"
-           x="564.11365"
-           y="276.56503" />
-        <rect
-           style="fill:none;stroke:#000000;stroke-width:2.30136991;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
-           id="rect3031-5-8-3"
-           width="19.305908"
-           height="8.586297"
-           x="564.11365"
-           y="291.21222" />
-      </g>
-    </g>
     <text
        xml:space="preserve"
        style="font-size:12px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;font-family:DejaVu Sans;-inkscape-font-specification:Sans Bold"
@@ -466,7 +414,12 @@
            id="tspan2991-8"
            y="191.95309"
            x="344.87943"
-           sodipodi:role="line">GuestbookModel</tspan></text>
+           sodipodi:role="line">GuestbookEntries</tspan><tspan
+           style="font-size:12px;text-align:center;text-anchor:middle"
+           y="206.95309"
+           x="344.87943"
+           sodipodi:role="line"
+           id="tspan3059">Repository</tspan></text>
       <g
          style="stroke-width:2.30136991;stroke-miterlimit:4;stroke-dasharray:none"
          transform="matrix(0.43452381,0,0,0.43452381,157.66507,44.610787)"
@@ -523,16 +476,6 @@
        inkscape:connection-start="#path3856-5-8"
        inkscape:connection-start-point="d4"
        inkscape:connection-end="#g4523"
-       inkscape:connection-end-point="d4" />
-    <path
-       style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-       d="M 252.50629,422.56689 442.6544,317.65887"
-       id="path4732"
-       inkscape:connector-type="polyline"
-       inkscape:connector-curvature="0"
-       inkscape:connection-start="#g4442"
-       inkscape:connection-start-point="d4"
-       inkscape:connection-end="#path3856-5-8"
        inkscape:connection-end-point="d4" />
   </g>
 </svg>
