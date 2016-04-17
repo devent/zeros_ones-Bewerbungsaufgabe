@@ -14,15 +14,24 @@
 
 <div class="guestbook_panel">
 	<p th:text="#{guestbook.new_entry}">To create a new entry, click:</p>
-	<form action="new.html">
+	<form action="/new/">
 	    <input type="submit" th:value="#{guestbook.new_entry_button}" value="New Entry" />
 	</form>
 </div>
 
 <h2 class="guestbook_existing" th:text="#{guestbook.existing_entries}">Existing entries</h2>
 
+<div id="guestbook_nav">
+<ul>
+<li><a th:class="button-active" href="/guestbook/0">First</a></li>
+<li><a th:class="${prevActive} ? button-active : button-disabled" th:href="'/guestbook/' + ${page.number - 1}">Previous</a></li>
+<li><a th:class="${nextActive} ? button-active : button-disabled" th:href="'/guestbook/' + ${page.number + 1}">Next</a></li>
+<li><a th:class="${lastActive} ? button-active : button-disabled" th:href="'/guestbook/' + ${page.totalPages - 1}">Last</a></li>
+</ul>
+</div>
+
 <div id="guestbook_entries">
-    <div th:each="entry, it : ${entries}" th:with="index = ${it.count}">
+    <div th:each="entry, it : ${page}" th:with="index = ${it.count}">
         <div class="guestbook_panel" th:fragment="entry" th:id="entry+${entry.id}">
             <div class="guestbook_panel_heading" >
                 <h3 th:text="${entry.number} + '. ' + #{guestbook.posting}">1. Posting</h3>
