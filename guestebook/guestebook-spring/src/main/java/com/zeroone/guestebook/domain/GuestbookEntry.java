@@ -10,6 +10,12 @@ import javax.persistence.Id;
 
 import org.apache.commons.lang3.builder.ToStringBuilder;
 
+/**
+ * A guestbook entry.
+ *
+ * @author Erwin Müller, erwin.mueller@deventm.de
+ * @since 1.0
+ */
 @SuppressWarnings("serial")
 @Entity
 public class GuestbookEntry implements Serializable, IGuestbookEntry {
@@ -19,25 +25,42 @@ public class GuestbookEntry implements Serializable, IGuestbookEntry {
     private Long id;
 
     @Column(nullable = false)
-    private Date date;
+    private final Date date;
 
     @Column(nullable = false)
-    private Long number;
+    private final String author;
 
     @Column(nullable = false)
-    private String author;
+    private final String comment;
 
-    @Column(nullable = false)
-    private String comment;
+    public GuestbookEntry(String author, String comment) {
+        this.date = new Date();
+        this.author = author;
+        this.comment = comment;
+    }
+
+    /**
+     * Default ctor for Pojo.
+     */
+    @SuppressWarnings("unused")
+    private GuestbookEntry() {
+        this.date = new Date();
+        this.author = null;
+        this.comment = null;
+    }
 
     @Override
     public Date getDate() {
         return date;
     }
 
+    public Long getId() {
+        return id;
+    }
+
     @Override
     public Long getNumber() {
-        return number;
+        return id;
     }
 
     @Override

@@ -1,0 +1,90 @@
+body {
+	margin: 24pt;
+	font-family: 'Vollkorn', serif;
+}
+
+.guestbook_title {
+	padding: 4pt;
+	margin-bottom: 2em;
+    background-color: #ffffff;
+    border: 2px solid #999999;
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+    /*IE 7 AND 8 DO NOT SUPPORT BORDER RADIUS*/
+    -moz-box-shadow: 0px 0px 5px #000000;
+    -webkit-box-shadow: 0px 0px 5px #000000;
+    box-shadow: 0px 0px 5px #000000;
+    /*IE 7 AND 8 DO NOT SUPPORT BLUR PROPERTY OF SHADOWS*/
+}
+
+.guestbook_panel {
+    padding: 4pt;
+    background-color: #ffffff;
+    border: 2px solid #999999;
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+    /*IE 7 AND 8 DO NOT SUPPORT BORDER RADIUS*/
+    -moz-box-shadow: 0px 0px 5px #000000;
+    -webkit-box-shadow: 0px 0px 5px #000000;
+    box-shadow: 0px 0px 5px #000000;
+    /*IE 7 AND 8 DO NOT SUPPORT BLUR PROPERTY OF SHADOWS*/
+}
+
+.guestbook_panel_body > footer {
+    float: right;
+    font-size: 90%;
+}
+
+.guestbook_existing {
+    padding: 4pt;
+    background-color: #ffffff;
+    border: 2px solid #999999;
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+    /*IE 7 AND 8 DO NOT SUPPORT BORDER RADIUS*/
+    -moz-box-shadow: 0px 0px 5px #000000;
+    -webkit-box-shadow: 0px 0px 5px #000000;
+    box-shadow: 0px 0px 5px #000000;
+    /*IE 7 AND 8 DO NOT SUPPORT BLUR PROPERTY OF SHADOWS*/
+}
+
+#guestbook_entries {
+	margin-right: auto;
+	margin-left: auto;
+	width: 50%;
+}
+
+.guestbook_form {
+    padding: 4pt;
+	margin-right: auto;
+    margin-left: auto;
+    width: 50%;
+	background-color: #ffffff;
+    border: 2px solid #999999;
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+    /*IE 7 AND 8 DO NOT SUPPORT BORDER RADIUS*/
+    -moz-box-shadow: 0px 0px 5px #000000;
+    -webkit-box-shadow: 0px 0px 5px #000000;
+    box-shadow: 0px 0px 5px #000000;
+    /*IE 7 AND 8 DO NOT SUPPORT BLUR PROPERTY OF SHADOWS*/
+}
+
+.guestbook_form_textfield {
+	width: 100%;
+}
+
+.guestbook_form_textarea {
+    width: 100%;
+}
+
+.guestbook_form_buttonsubmit {
+    float: right;
+}
+
+.guestbook_form_buttons {
+}

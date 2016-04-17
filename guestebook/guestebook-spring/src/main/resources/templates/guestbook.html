@@ -1,17 +1,39 @@
-<!DOCTYPE HTML>
-<html xmlns:th="http://www.thymeleaf.org">
+<!DOCTYPE html SYSTEM "http://www.thymeleaf.org/dtd/xhtml1-strict-thymeleaf-spring4-4.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:th="http://www.thymeleaf.org">
 <head>
-    <title th:text="#{guestbook.title}">zeros+ones Guestebook – View Entries</title>
-    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="/resources/css/style.css" type="text/css" />
+    <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Vollkorn" />
+    <title th:text="#{guestbook.title_view_entries}">zeros+ones Guestebook</title>
 </head>
 <body>
 
-<h1 th:text="#{guestbook.header}">zeros+ones Guestbook</h1>
-<p>
-To create a new entry, click <a href="new.html">here</a>.
-</p>
+<h1 class="guestbook_title" th:text="#{guestbook.header_view_entries}">zeros+ones Guestbook - View Entries</h1>
 
-<h2 th:text="#{guestbook.existing_entries}">Existing entries</h2>
+<div class="guestbook_panel">
+	<p th:text="#{guestbook.new_entry}">To create a new entry, click:</p>
+	<form action="new.html">
+	    <input type="submit" th:value="#{guestbook.new_entry_button}" value="New Entry" />
+	</form>
+</div>
+
+<h2 class="guestbook_existing" th:text="#{guestbook.existing_entries}">Existing entries</h2>
+
+<div id="guestbook_entries">
+    <div th:each="entry, it : ${entries}" th:with="index = ${it.count}">
+        <div class="guestbook_panel" th:fragment="entry" th:id="entry+${entry.id}">
+            <div class="guestbook_panel_heading" >
+                <h3 th:text="${entry.number} + '. ' + #{guestbook.posting}">1. Posting</h3>
+            </div>
+            <div class="guestbook_panel_body">
+                <blockquote class="guestbook_entrytext" th:text="${entry.comment}"></blockquote>
+                <footer class="guestbook_date" th:text="${{entry.date}}">Date</footer>
+                <div style="clear: both;"></div>
+            </div>
+        </div>
+    </div>
+</div>
 
 </body>
 </html>
