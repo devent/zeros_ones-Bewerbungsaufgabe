@@ -15,6 +15,8 @@
  */
 package com.zeroone.guestebook.domain;
 
+import static org.springframework.util.Assert.hasText;
+
 import java.io.Serializable;
 import java.util.Date;
 
@@ -49,6 +51,8 @@ public class GuestbookEntry implements Serializable, IGuestbookEntry {
     private final String comment;
 
     public GuestbookEntry(String author, String comment) {
+        hasText(author, "author empty");
+        hasText(comment, "comment empty");
         this.date = new Date();
         this.author = author;
         this.comment = comment;
