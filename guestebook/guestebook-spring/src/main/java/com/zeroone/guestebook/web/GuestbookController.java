@@ -82,8 +82,8 @@ public class GuestbookController {
      *            the page number to show, starting with 0.
      */
     @RequestMapping(value = "/guestbook/{pageNumber}", method = RequestMethod.GET)
-    public String getRunbookPage(@PathVariable Integer pageNumber, Model model,
-            GuestbookEntryForm form) {
+    public String getGuestbookPage(@PathVariable Integer pageNumber,
+            Model model, GuestbookEntryForm form) {
         Page<GuestbookEntry> page = guestbook.findAll(new PageRequest(
                 pageNumber, PAGE_SIZE, Sort.Direction.DESC, "id"));
         model.addAttribute("prevActive", pageNumber > 0);
