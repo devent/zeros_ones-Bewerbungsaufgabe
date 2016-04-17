@@ -59,6 +59,7 @@ public class GuestbookFormController {
         }
         GuestbookEntry entry;
         entry = new GuestbookEntry(form.getAuthor(), form.getComment());
+        log.trace("Saving entry: {}", entry);
         guestbook.save(entry);
         log.debug("Entry saved: {}", entry);
         return "redirect:/guestbook";

@@ -3,6 +3,8 @@ package com.zeroone.guestebook.web;
 import static org.springframework.util.Assert.notNull;
 
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.data.domain.Page;
+import org.springframework.data.domain.PageRequest;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.PathVariable;
@@ -50,6 +52,13 @@ public class GuestbookController {
         return "guestbook";
     }
 
+    @RequestMapping(value = "/pages/{pageNumber}", method = RequestMethod.GET)
+    public String getRunbookPage(@PathVariable Integer pageNumber, Model model) {
+        Page<GuestbookEntry> page = guestbook.findAll(new PageRequest(
+                pageNumber, 20));
+        model.addAttribute("page", page);
+        return "guesbookpage";
+    }
     /**
      * "/guestbook", removes a {@link GuestbookEntry} specified by the ID.
      *

@@ -22,4 +22,5 @@ public class MvcConfig extends WebMvcConfigurerAdapter {
     public void addFormatters(FormatterRegistry registry) {
         registry.addFormatter(new DateFormatter(messageSource()));
     }
+
 }

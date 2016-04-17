@@ -1,15 +1,16 @@
 <!DOCTYPE html SYSTEM "http://www.thymeleaf.org/dtd/xhtml1-strict-thymeleaf-spring4-4.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" xmlns:th="http://www.thymeleaf.org">
-<head>
-    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
-    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css" />
-    <link rel="stylesheet" href="/resources/css/style.css" type="text/css" />
-    <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Vollkorn" />
-    <title th:text="#{guestbook.title_view_entries}">zeros+ones Guestebook</title>
+
+<head th:include="/fragments/layout :: head (title=#{guestbook.title_view_entries})">
+<title>zeros+ones Guestebook - Show Entries</title>
 </head>
+
 <body>
 
-<h1 class="guestbook_title" th:text="#{guestbook.header_view_entries}">zeros+ones Guestbook - View Entries</h1>
+<div class="guestbook_content">
+
+<div id="guestbook_title_panel" th:include="/fragments/layout :: title (title=#{guestbook.header_view_entries})">
+</div>
 
 <div class="guestbook_panel">
 	<p th:text="#{guestbook.new_entry}">To create a new entry, click:</p>
@@ -33,6 +34,8 @@
             </div>
         </div>
     </div>
+</div>
+
 </div>
 
 </body>
