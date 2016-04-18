@@ -16,63 +16,62 @@
 $(document).ready(function() {
 	'use strict';
 
-	$('#form').submit(function(e) {
-
-		if(!$('#use_ajax').is(':checked')) {
-			return;
-		}
-
+	$('#guestbook_first_button').click(function(e) {
 		e.preventDefault();
-
-		var form = $(this);
-
 		$.ajax({
 			type	: 'POST',
 			cache	: false,
-			url		: form.attr('action'),
-			data	: form.serialize(),
+			url		: '/guestbook',
+			data	: { pageNumber: 0 },
 			success	: function(data) {
-				$("#entries").append('<div>' + data + '</div>');
-
-				// fix index
-				var index = $('#entries div[id^="entry"]').length;
-				var textArray = $(data).find('h3').text().split('.', 2);
-
-				$('#entries div[id^="entry"]:last').find('h3').text(index + '.' + textArray[1]);
-				$('html, body').animate({scrollTop: form.offset().top}, 2000);
-
-				e.target.reset();
+				$("#guestbook").html('<div>' + data + '</div>');
 			}
 		});
 	});
 
-	$('#entries').on('submit','form', function(e){
-
-		if(!$('#use_ajax').is(':checked')) {
-			return;
-		}
-
+	$('#guestbook_prev_button').click(function(e) {
 		e.preventDefault();
-
-		var form = $(this);
-		var id = form.attr('data-entry-id');
-
+		var tag = this;
+		var number = tag.getAttribute("href").split('/')[2];
 		$.ajax({
-			type	: 'DELETE',
+			type	: 'POST',
 			cache	: false,
-			url		: form.attr('action'),
-			data	: form.serialize(),
-			success	: function() {
-
-				$('#entry' + id).slideUp(500, function() {
-					var followingEntries = $(this).parent().nextAll().each(function() {
-						var textArray = $(this).find('h3').text().split('.', 2);
-						$(this).find('h3').text((parseInt(textArray[0],10)-1) + '.' + textArray[1]);
-					});
-
-					$(this).parent().remove();
-				});
+			url		: '/guestbook',
+			data	: { pageNumber: number },
+			success	: function(data) {
+				$("#guestbook").html('<div>' + data + '</div>');
 			}
 		});
 	});
+
+	$('#guestbook_next_button').click(function(e) {
+		e.preventDefault();
+		var tag = this;
+		var number = tag.getAttribute("href").split('/')[2];
+		$.ajax({
+			type	: 'POST',
+			cache	: false,
+			url		: '/guestbook',
+			data	: { pageNumber: number },
+			success	: function(data) {
+				$("#guestbook").html('<div>' + data + '</div>');
+			}
+		});
+	});
+
+	$('#guestbook_last_button').click(function(e) {
+		e.preventDefault();
+		var tag = this;
+		var number = tag.getAttribute("href").split('/')[2];
+		$.ajax({
+			type	: 'POST',
+			cache	: false,
+			url		: '/guestbook',
+			data	: { pageNumber: number },
+			success	: function(data) {
+				$("#guestbook").html('<div>' + data + '</div>');
+			}
+		});
+	});
+
 });

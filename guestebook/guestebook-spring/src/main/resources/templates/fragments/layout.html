@@ -23,6 +23,10 @@
 <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css" />
 <link rel="stylesheet" href="/resources/css/style.css" type="text/css" />
 <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Vollkorn" />
+<!-- scripts -->
+<script th:src="@{/resources/js/jquery-1.12.3.min.js}"></script>
+<script th:src="@{/resources/js/guestbook.js}"></script>
+<!-- title -->
 <title th:text="${title}"></title>
 <!-- http://realfavicongenerator.net -->
 <link rel="apple-touch-icon" sizes="57x57" href="/resources/images/favicon/apple-touch-icon-57x57.png" />
@@ -50,8 +54,8 @@
 <div class="guestbook_content">
 
 <div id="guestbook_title_panel" th:fragment="title (title)">
-<div id="guestbook_title_image"><img src="/resources/images/guesbook-192x192.png" /></div>
-<h1 id="guestbook_title_text" th:text="${title}">zeros+ones Guestbook</h1>
+<div id="guestbook_title_image"><a href="/"><img src="/resources/images/guesbook-192x192.png" /></a></div>
+<a id="guestbook_title_text" th:text="${title}" href="/">zeros+ones Guestbook</a>
 </div>
 
 </div>

@@ -15,6 +15,7 @@
  */
 package com.zeroone.guestebook.web;
 
+import static org.springframework.http.MediaType.APPLICATION_JSON_VALUE;
 import static org.springframework.util.Assert.notNull;
 
 import org.springframework.beans.factory.annotation.Autowired;
@@ -26,6 +27,7 @@ import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
+import org.springframework.web.bind.annotation.RequestParam;
 
 import com.zeroone.guestebook.domain.GuestbookEntriesRepository;
 import com.zeroone.guestebook.domain.GuestbookEntry;
@@ -42,13 +44,21 @@ import com.zeroone.guestebook.domain.GuestbookEntry;
 @Controller
 public class GuestbookController {
 
+    /**
+     * The entries per page.
+     */
     private static final int PAGE_SIZE = 20;
+
+    /**
+     * Ajax header.
+     */
+    private static final String AJAX_HEADER = "X-Requested-With=XMLHttpRequest";
 
     private final GuestbookEntriesRepository guestbook;
 
     @Autowired
     public GuestbookController(GuestbookEntriesRepository guestbook) {
-        notNull(guestbook, "guestbook==null");
+        notNull(guestbook, "guestbook is null");
         this.guestbook = guestbook;
     }
 
@@ -64,36 +74,44 @@ public class GuestbookController {
      * "/guestbook", shows the page 0.
      */
     @RequestMapping(value = "/guestbook", method = RequestMethod.GET)
-    String guestbook(Model model, GuestbookEntryForm form) {
-        Page<GuestbookEntry> page = guestbook.findAll(new PageRequest(0,
-                PAGE_SIZE, Sort.Direction.DESC, "id"));
+    public String guestbook(Model model) {
+        Page<GuestbookEntry> page = getPage(0);
+        model.addAttribute("firstActive", false);
         model.addAttribute("prevActive", false);
         model.addAttribute("nextActive", page.getTotalPages() - 1 > 0);
         model.addAttribute("lastActive", page.getTotalPages() - 1 > 0);
         model.addAttribute("page", page);
-        model.addAttribute("form", form);
         return "guestbook";
     }
 
     /**
-     * "/guestbook", shows the page with the specificed page number.
+     * "/guestbook", shows the page with the specified page number.
      *
      * @param pageNumber
      *            the page number to show, starting with 0.
      */
     @RequestMapping(value = "/guestbook/{pageNumber}", method = RequestMethod.GET)
-    public String getGuestbookPage(@PathVariable Integer pageNumber,
-            Model model, GuestbookEntryForm form) {
-        Page<GuestbookEntry> page = guestbook.findAll(new PageRequest(
-                pageNumber, PAGE_SIZE, Sort.Direction.DESC, "id"));
-        model.addAttribute("prevActive", pageNumber > 0);
-        model.addAttribute("nextActive", page.getTotalPages()
-                - (pageNumber + 1) > 0);
-        model.addAttribute("lastActive", page.getTotalPages()
-                - (pageNumber + 1) > 0);
+    public String getGuestbookPage(@PathVariable Integer pageNumber, Model model) {
+        Page<GuestbookEntry> page = getPage(pageNumber);
+        calculateButtonsActive(pageNumber, model, page);
         model.addAttribute("page", page);
-        model.addAttribute("form", form);
         return "guestbook";
+    }
+
+    /**
+     * "/guestbook", shows the page with the specified page number per Ajax
+     * request.
+     *
+     * @param pageNumber
+     *            the page number to show, starting with 0.
+     */
+    @RequestMapping(value = "/guestbook", method = RequestMethod.POST, produces = APPLICATION_JSON_VALUE, headers = AJAX_HEADER)
+    public String getGuestbookPageAjax(
+            @RequestParam("pageNumber") int pageNumber, Model model) {
+        Page<GuestbookEntry> page = getPage(pageNumber);
+        calculateButtonsActive(pageNumber, model, page);
+        model.addAttribute("page", page);
+        return "guestbook :: div#guestbook";
     }
 
     /**
@@ -103,8 +121,25 @@ public class GuestbookController {
      *            the {@link GuestbookEntry} ID.
      */
     @RequestMapping(value = "/guestbook/{id}", method = RequestMethod.DELETE)
-    String removeEntry(@PathVariable Long id) {
+    public String removeEntry(@PathVariable Long id) {
         guestbook.delete(id);
         return "redirect:/guestbook";
     }
+
+    private Page<GuestbookEntry> getPage(int pageNumber) {
+        return guestbook.findAll(new PageRequest(pageNumber, PAGE_SIZE,
+                Sort.Direction.DESC, "id"));
+    }
+
+    private Model calculateButtonsActive(Integer pageNumber, Model model,
+            Page<GuestbookEntry> page) {
+        model.addAttribute("firstActive", pageNumber > 0);
+        model.addAttribute("prevActive", pageNumber > 0);
+        model.addAttribute("nextActive", page.getTotalPages()
+                - (pageNumber + 1) > 0);
+        model.addAttribute("lastActive", page.getTotalPages()
+                - (pageNumber + 1) > 0);
+        return model;
+    }
+
 }
