@@ -120,7 +120,7 @@ public class GuestbookController {
      * @param id
      *            the {@link GuestbookEntry} ID.
      */
-    @RequestMapping(value = "/guestbook/{id}", method = RequestMethod.DELETE)
+    // @RequestMapping(value = "/guestbook/{id}", method = RequestMethod.DELETE)
     public String removeEntry(@PathVariable Long id) {
         guestbook.delete(id);
         return "redirect:/guestbook";
