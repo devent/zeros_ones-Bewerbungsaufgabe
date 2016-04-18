@@ -47,7 +47,7 @@ public class GuestbookController {
     /**
      * The entries per page.
      */
-    private static final int PAGE_SIZE = 20;
+    private static final int PAGE_SIZE = 4;
 
     /**
      * Ajax header.
