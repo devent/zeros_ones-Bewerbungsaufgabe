@@ -20,8 +20,9 @@
 
 <head th:fragment="head (title)">
 <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+<meta name="_ctx" th:content="${#httpServletRequest.getContextPath()}" />
 <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css" />
-<link rel="stylesheet" href="/resources/css/style.css" type="text/css" />
+<link rel="stylesheet" th:href="@{/resources/css/style.css}" type="text/css" />
 <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Vollkorn" />
 <!-- scripts -->
 <script th:src="@{/resources/js/jquery-1.12.3.min.js}"></script>
@@ -54,7 +55,7 @@
 <div class="guestbook_content">
 
 <div id="guestbook_title_panel" th:fragment="title (title)">
-<div id="guestbook_title_image"><a href="/"><img src="/resources/images/guesbook-192x192.png" /></a></div>
+<div id="guestbook_title_image"><a href="/"><img th:src="@{/resources/images/guesbook-192x192.png}" /></a></div>
 <a id="guestbook_title_text" th:text="${title}" href="/">zeros+ones Guestbook</a>
 </div>
 

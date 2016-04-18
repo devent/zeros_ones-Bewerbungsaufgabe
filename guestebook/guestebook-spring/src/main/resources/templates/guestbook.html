@@ -31,7 +31,7 @@
 
 <div class="guestbook_panel">
 	<p th:text="#{guestbook.new_entry}">To create a new entry, click:</p>
-	<form action="/new/">
+	<form th:action="@{/new/}">
 	    <input type="submit" th:value="#{guestbook.new_entry_button}" value="New Entry" />
 	</form>
 </div>
@@ -42,10 +42,10 @@
 
 <div id="guestbook_nav">
 <ul>
-<li><a id="guestbook_first_button" th:class="${firstActive} ? button-active : button-disabled" href="/guestbook/0">First</a></li>
-<li><a id="guestbook_prev_button" th:class="${prevActive} ? button-active : button-disabled" th:href="'/guestbook/' + ${page.number - 1}">Previous</a></li>
-<li><a id="guestbook_next_button" th:class="${nextActive} ? button-active : button-disabled" th:href="'/guestbook/' + ${page.number + 1}">Next</a></li>
-<li><a id="guestbook_last_button" th:class="${lastActive} ? button-active : button-disabled" th:href="'/guestbook/' + ${page.totalPages - 1}">Last</a></li>
+<li><a id="guestbook_first_button" th:class="${firstActive} ? button-active : button-disabled" th:href="@{/guestbook/0}">First</a></li>
+<li><a id="guestbook_prev_button" th:class="${prevActive} ? button-active : button-disabled" th:href="@{'/guestbook/' + ${page.number - 1}}">Previous</a></li>
+<li><a id="guestbook_next_button" th:class="${nextActive} ? button-active : button-disabled" th:href="@{'/guestbook/' + ${page.number + 1}}">Next</a></li>
+<li><a id="guestbook_last_button" th:class="${lastActive} ? button-active : button-disabled" th:href="@{'/guestbook/' + ${page.totalPages - 1}}">Last</a></li>
 </ul>
 </div>
 

@@ -13,15 +13,21 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
+
 $(document).ready(function() {
 	'use strict';
+
+	var _ctx = $("meta[name='_ctx']").attr("content");
+	if (typeof(_ctx) == "undefined") {
+		_ctx = '';
+	}
 
 	$('#guestbook_first_button').click(function(e) {
 		e.preventDefault();
 		$.ajax({
 			type	: 'POST',
 			cache	: false,
-			url		: '/guestbook',
+			url		: _ctx + '/guestbook',
 			data	: { pageNumber: 0 },
 			success	: function(data) {
 				$("#guestbook").html('<div>' + data + '</div>');
@@ -32,11 +38,12 @@ $(document).ready(function() {
 	$('#guestbook_prev_button').click(function(e) {
 		e.preventDefault();
 		var tag = this;
-		var number = tag.getAttribute("href").split('/')[2];
+		var str = tag.getAttribute("href").split('/')
+		var number = str[str.length-1];
 		$.ajax({
 			type	: 'POST',
 			cache	: false,
-			url		: '/guestbook',
+			url		: _ctx + '/guestbook',
 			data	: { pageNumber: number },
 			success	: function(data) {
 				$("#guestbook").html('<div>' + data + '</div>');
@@ -47,11 +54,12 @@ $(document).ready(function() {
 	$('#guestbook_next_button').click(function(e) {
 		e.preventDefault();
 		var tag = this;
-		var number = tag.getAttribute("href").split('/')[2];
+		var str = tag.getAttribute("href").split('/')
+		var number = str[str.length-1];
 		$.ajax({
 			type	: 'POST',
 			cache	: false,
-			url		: '/guestbook',
+			url		: _ctx + '/guestbook',
 			data	: { pageNumber: number },
 			success	: function(data) {
 				$("#guestbook").html('<div>' + data + '</div>');
@@ -62,11 +70,12 @@ $(document).ready(function() {
 	$('#guestbook_last_button').click(function(e) {
 		e.preventDefault();
 		var tag = this;
-		var number = tag.getAttribute("href").split('/')[2];
+		var str = tag.getAttribute("href").split('/')
+		var number = str[str.length-1];
 		$.ajax({
 			type	: 'POST',
 			cache	: false,
-			url		: '/guestbook',
+			url		: _ctx + '/guestbook',
 			data	: { pageNumber: number },
 			success	: function(data) {
 				$("#guestbook").html('<div>' + data + '</div>');
