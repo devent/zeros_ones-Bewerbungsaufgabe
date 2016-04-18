@@ -55,8 +55,8 @@
 <div class="guestbook_content">
 
 <div id="guestbook_title_panel" th:fragment="title (title)">
-<div id="guestbook_title_image"><a href="/"><img th:src="@{/resources/images/guesbook-192x192.png}" /></a></div>
-<a id="guestbook_title_text" th:text="${title}" href="/">zeros+ones Guestbook</a>
+<div id="guestbook_title_image"><a th:href="@{/}"><img th:src="@{/resources/images/guesbook-192x192.png}" /></a></div>
+<a id="guestbook_title_text" th:text="${title}" th:href="@{/}">zeros+ones Guestbook</a>
 </div>
 
 </div>
